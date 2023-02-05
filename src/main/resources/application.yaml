@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/summary?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    username: root
+    password: root
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
